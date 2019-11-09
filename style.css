@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+}
+
+/*CAPA*/
+
+.capa{
+    background: url(./imagens/FotoFernanda.jpg) center no-repeat;
+    /*background-color: purple;*/
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 18rem;
+    color:white;
+}
+
+.capa_titulo{
+     font-size: 3rem;
+}
+
+.capa_subtitulo{
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.botao_branco{
+    border-radius: 2rem;
+    background-color:white;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+}
+
+.descricao{
+    display: flex;
+    width: 90%;
+    align-content: center;
+    margin: 0 auto;
+}
+.descricao_esquerda{
+    width: 40%;
+    margin: 40px;
+}
+.sobre_mim{
+    color: purple;
+    font-size: 26px;
+    line-height: 3rem;
+    margin: 30px;
+    }
+.paragrafo1{
+    font-size: 24px;
+    margin: 30px;
+    text-align:justify;
+    }
+.paragrafo2{
+        font-size: 18px;
+        margin: 30px;
+        text-align:justify;
+        }
+.botao_cv{
+    border:purple solid 2px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: purple;
+    margin: 30px;
+    
+}
+.descricao_direita{
+    width: 40%;
+    margin: 40px;
+    padding-top: 4rem;
+}
+.habilidades{
+    font-size: 20px;
+}
+ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+li{
+    line-height: 2rem;
+}
+.redes-sociais{
+    text-align: center;
+    margin-top: 3rem;
+}
+.quadradinho{
+    display: inline-block;
+    background-color: purple;
+    width: 14%;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+img{
+    height: 50px;
+}
+h5{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+footer{
+    color:gray;
+    font-size: 20px;
+    margin: 3rem;
+    text-align: center;
+
+
+}
